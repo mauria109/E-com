@@ -1,0 +1,46 @@
+section{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-flow: row;
+}
+
+#content{
+  border: black solid 1px;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  left: 300px;
+}
+
+.img-box{
+  border: black solid 1px;
+  width: 550px;
+  height: 200px;
+}
+
+.number-box, .stock-box{
+  display: inline-block;
+}
+
+.desc-box{
+  width: 500px;
+  height: 200px;
+  border: black solid 1px;
+  overflow: scroll;
+  position: relative;
+  left: 30px;
+}
+
+.prd-panier{
+  margin-top: 15px;
+  padding: 5px;
+  position: relative;
+  left: 200px;
+}
+
+.add-panier{
+  width: 55px;
+}
+

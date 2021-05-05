@@ -1,0 +1,141 @@
+#index-head {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#index-head #logo {
+  float: left;
+}
+#index-head #panier, #index-head #profil {
+  left: 1000px;
+}
+#index-head #logo, #index-head #panier, #index-head #profil {
+  position: relative;
+  top: -20px;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav {
+  font-family: Book Antiqua, serif;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  margin-right: 20px;
+}
+nav a {
+  color: black;
+  padding-bottom: 3px;
+}
+nav a :hover {
+  color: lightgreen;
+  border-bottom: 3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin: 0;
+  font-weight: normal;
+  font-family: Book Antiqua, monospace;
+}
+
+.panier {
+  width: 70px;
+  transition: 250ms;
+  transform: scale(1);
+  cursor: pointer;
+}
+.panier :hover {
+  width: 80px;
+  transform: scale(1.2);
+}
+
+.nag {
+  padding: 5px;
+  font-size: 1.1em;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 400ms;
+  cursor: pointer;
+  text-align: justify;
+  position: relative;
+  display: inline-flex;
+  align-content: space-between;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border: 1px solid black;
+  margin: 10px;
+}
+.nag :hover {
+  transform: scale(1.15);
+  border-bottom: 3px;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+}
+
+#compte {
+  position: relative;
+  left: 200px;
+  bottom: 5px;
+}
+
+.compte {
+  width: 60px;
+  cursor: pointer;
+  transition: 250ms;
+  transform: scale(1);
+}
+.compte :hover {
+  width: 75px;
+  transform: scale(1.2);
+}
+
+h1 {
+  color: darkslateblue;
+  text-align: center;
+  font-family: Castellar, sans-serif;
+  -webkit-animation: lg 4s;
+  animation: lg 4s;
+}
+
+div#menu-bar {
+  border: 2px solid black;
+  height: 100px;
+  border-radius: 50px;
+  background: -webkit-linear-gradient(top, #132f25 0%, #7ae97e 100%);
+  position: absolute;
+  width: auto;
+  font-size: 1em;
+  margin-left: 150px;
+  padding: 2px;
+}
+div#menu-bar :hover {
+  background: -webkit-linear-gradient(top, #f06868 0%, #e1a692 100%);
+}
+
+footer {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.profil {
+  width: 100px;
+}
+
+/*# sourceMappingURL=menu.css.map */

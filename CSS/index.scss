@@ -1,0 +1,58 @@
+
+.index-nav{
+  padding: 5px;
+  font-size: 1.2em;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 400ms;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  right: auto;
+  display: flex;
+  width: auto;
+  margin: 10px;
+  
+  :hover {
+    transform: scale(1.15);
+    border-bottom: 3px;
+  }
+}
+
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-flow: row;
+}
+
+aside{
+  border-right: 1px black solid;
+  padding: 5px;
+}
+
+#container{
+  border: 1px solid black;
+  padding: 5px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.prd-new, .user-account, .site-info, .assist-icone{
+  width: 45px;
+}
+
+article{
+  padding: 10px;
+  margin: 10px;
+}
+
+.prd-new-foot, .user-account-foot, .site-info-foot{
+  width: 15px;
+}
+

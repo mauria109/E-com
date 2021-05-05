@@ -1,0 +1,50 @@
+
+section{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-flow: row;
+}
+
+aside{
+  border-right: 1px black solid;
+  padding: 5px;
+}
+
+article{
+  border: 1px solid black;
+  padding: 5px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+#add-btn{
+  padding: 5px;
+  border-radius: 15px;
+  position: relative;
+  right: auto;
+}
+
+.corbeille, .edit{
+  width: 50px;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 550ms;
+  cursor: pointer;
+}
+
+.corbeille:hover, .edit:hover{
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  border-bottom: 3px;
+}
+
+.action{
+  width: 30px;
+}

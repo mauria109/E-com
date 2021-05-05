@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "fr">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "../../CSS/menu.css">
+        <link rel = "stylesheet" href = "../../CSS/Form.css">
+        <title>Créer boutique</title>
+    </head>
+    <body>
+        <header></header>
+    
+        <section>
+            <article>
+                <h1>Création d'une nouvelle boutique en ligne</h1>
+    
+                <form action = "#" method = "post">
+                    <p>
+                        <label for = "nom">Nom de la boutique</label>
+                        <input type = "text" name = "nom" id = "nom">
+                    </p>
+                    
+                    <div id="shop_type">
+                        <p>
+                            <label for = "type">Type de boutique</label>
+                            <select name = "type" id = "type">
+                                <option value = "">TYPE</option>
+                            </select>
+                        </p>
+                    </div>
+                    
+                    <p>
+                        <label for = "adresse">Adresse de la boutique</label>
+                        <input type = "text" name = "adresse" id = "adresse">
+    
+                        <label for = "tel_sh">Tel</label>
+                        <input type = "text" name = "tel_sh" id = "tel_sh">
+                    </p>
+                    
+                    <p>
+                        <label for = "mail_sh">Email de la boutique (sinon le vôtre)</label>
+                        <input type = "email" name = "mail_sh" id = "mail_sh">
+                    </p>
+    
+                    <div id="btn">
+                        <input type = "submit" value = "Valider">
+                        <input type = "reset" value = "Annuler">
+                    </div>
+                </form>
+            </article>
+        </section>
+    </body>
+</html>

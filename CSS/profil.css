@@ -1,0 +1,39 @@
+article {
+  border: 1px solid black;
+  position: relative;
+  text-align: center;
+}
+
+.pseudo, .email, .mdp {
+  border: 1px solid black;
+  width: 500px;
+  padding: 2px;
+  margin: 10px;
+}
+
+#boxes, #boutons {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*
+#btn-mail, #btn-pseudo, #btn-mdp{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    left: ;
+}
+
+#pseudo-btn, #email-btn, #pwd-btn{
+    width: 200px;
+}
+
+*/
+
+/*# sourceMappingURL=profil.css.map */
